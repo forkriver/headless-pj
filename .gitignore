@@ -1,0 +1,7 @@
+# NodeJS specific #
+node_modules/
+.next/
+coverage/
+npm-debug.log
+package-lock.json
+test/*.log

@@ -1,0 +1,21 @@
+{
+  "name": "headless-pj",
+  "version": "1.0.0",
+  "description": "Headless WP/React using PJ's site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_PATH=. NODE_ENV=production node server.js"
+  },
+  "author": "Patrick Johanneson",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "next": "^9.3.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
