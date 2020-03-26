@@ -7,6 +7,7 @@ See:
 ## Next steps
 
 * Pages (probably using `pages/single-page.js`)
+* Settings file (generic API URL, eg)
 * Caching of API content
   * ...and invalidation thereof
 * Featured image parsing (when present)
